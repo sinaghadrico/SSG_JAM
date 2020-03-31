@@ -1,0 +1,15 @@
+﻿
+@font-face {
+  font-family: 'IranYekan';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./eot/iranyekanwebregular(fanum).eot'); /* IE9 Compat Modes */
+  src: url('./eot/iranyekanwebregular(fanum).eot?#iefix') format('embedded-opentype'),  /* IE6-IE8 */
+  url('./woff2/iranyekanwebregular(fanum).woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/ /* Super Modern Browsers */
+  url('./woff/iranyekanwebregular(fanum).woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ /* Pretty Modern Browsers */
+  url('./ttf/iranyekanwebregular(fanum).ttf') format('truetype'); /* Safari, Android, iOS */
+  url('./svg/iranyekanwebregular(fanum).svg') format('svg'); /* Legacy iOS */
+}
+.IranYekan,.IranYekan *{
+  font-family: 'IranYekan', swap, sans-serif;
+}

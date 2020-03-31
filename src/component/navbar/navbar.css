@@ -1,0 +1,55 @@
+.navbar {
+  width: 640px;
+  height: 100px;
+  margin: 20px;
+
+  background: linear-gradient(to right, #3c8ce7 4px, transparent 4px) 0 0,
+    linear-gradient(to right, #3c8ce7 4px, transparent 4px) 0 100%,
+    linear-gradient(to left, #3c8ce7 4px, transparent 4px) 100% 0,
+    linear-gradient(to left, #3c8ce7 4px, transparent 4px) 100% 100%,
+    linear-gradient(to bottom, #3c8ce7 4px, transparent 4px) 0 0,
+    linear-gradient(to bottom, #3c8ce7 4px, transparent 4px) 100% 0,
+    linear-gradient(to top, #3c8ce7 4px, transparent 4px) 0 100%,
+    linear-gradient(to top, #3c8ce7 4px, transparent 4px) 100% 100%;
+
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+}
+
+#title {
+  padding: 20px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#link {
+  text-decoration: none;
+  color:black
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: IranYekan;
+  direction: rtl;
+}
+
+
+
+@font-face {
+  font-family: 'IranYekan';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../../fonts/iranyekan/eot/iranyekanwebregular(fanum).eot'); /* IE9 Compat Modes */
+  src: url('../../fonts/iranyekan/eot/iranyekanwebregular(fanum).eot?#iefix') format('embedded-opentype'),  /* IE6-IE8 */
+  url('../../fonts/iranyekan/woff2/iranyekanwebregular(fanum).woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/ /* Super Modern Browsers */
+  url('../../fonts/iranyekan/woff/iranyekanwebregular(fanum).woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ /* Pretty Modern Browsers */
+  url('../../fonts/iranyekan/ttf/iranyekanwebregular(fanum).ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+
+#desc {
+  padding-right: 20px;
+  margin:10px 10px 0 0;
+  top:0;
+}

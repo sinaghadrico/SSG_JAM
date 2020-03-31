@@ -1,0 +1,35 @@
+.article {
+  width: 640px;
+  height: 100px;
+  margin: 20px;
+}
+
+body {
+  display: flex;
+  text-align: justify;
+  font-family: IranYekan;
+  direction: rtl;
+}
+
+.article-image {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.article-intro {
+  margin-bottom: 150px;
+}
+
+
+
+@font-face {
+  font-family: 'IranYekan';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/iranyekan/eot/iranyekanwebregular(fanum).eot'); /* IE9 Compat Modes */
+  src: url('../fonts/iranyekan/eot/iranyekanwebregular(fanum).eot?#iefix') format('embedded-opentype'),  /* IE6-IE8 */
+  url('../fonts/iranyekan/woff2/iranyekanwebregular(fanum).woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/ /* Super Modern Browsers */
+  url('../fonts/iranyekan/woff/iranyekanwebregular(fanum).woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ /* Pretty Modern Browsers */
+  url('../fonts/iranyekan/ttf/iranyekanwebregular(fanum).ttf') format('truetype'); /* Safari, Android, iOS */
+}
