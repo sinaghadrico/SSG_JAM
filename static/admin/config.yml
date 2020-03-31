@@ -1,0 +1,28 @@
+# In your static/admin/config.yml file
+backend: 
+  name: github
+  repo: [sinaghadrico]/[sinaghadrico]
+  
+media_folder: static/assets
+public_folder: assets
+
+collections:
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "SSG Concept"
+        name: "ssg-concept"
+        file: "content/ssg-concept.md"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Summary, name: summary, widget: string }
+          - { label: Intro text, name: intro, widget: text }
+          - { label: Image, name: image, widget: image }
+          - label: "Time to Read"
+            name: "time"
+            widget: "number"
+            default: 2
+            valueType: "int"
+            min: 1
+            max: 30
+            step: 1
