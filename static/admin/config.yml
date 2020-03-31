@@ -1,7 +1,7 @@
 # In your static/admin/config.yml file
 backend: 
   name: github
-  repo: [sinaghadrico]/[sinaghadrico]
+  repo: sinaghadrico/sinaghadrico
   
 media_folder: static/assets
 public_folder: assets
